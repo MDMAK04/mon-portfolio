@@ -1,56 +1,44 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
 </head>
 <body>
-
-    <!-- En-tête -->
     <header>
-        <h1>Simo CMDL</h1>
-        <p>Développeur Web & Designer | Créatif & Passionné</p>
+        <a href="#" class="logo">Alex</a>
+
         <nav>
-            <a href="#about">À propos</a>
-            <a href="#projects">Projets</a>
-            <a href="#contact">Contact</a>
+            <a href="#" class="active"> Home</a>
+            <a href="#" >Services</a>
+            <a href="#" >Skills</a>
+            <a href="#" >Education</a>
+            <a href="#" >Experience</a>
+            <a href="#" >Contact</a>
         </nav>
     </header>
-
-    <!-- À propos -->
-    <section id="about">
-        <h2>À propos de moi</h2>
-        <p>Bienvenue sur mon portfolio ! Je suis Simo, développeur web passionné par les interfaces modernes et les solutions créatives.</p>
-    </section>
-
-    <!-- Projets -->
-    <section id="projects">
-        <h2>Mes Projets</h2>
-        <div class="project-list">
-            <div class="project">
-                <h3>Projet 1</h3>
-                <p>Description rapide du projet 1. Ce peut être une application web ou un site que j'ai développé.</p>
+    <section class="home">
+        <div class="home-img">
+            <img src="main.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Alex</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus labore dolores esse. Odit similique doloribus tenetur doloremque, sunt commodi in ipsa repudiandae debitis deleniti blanditiis quibusdam quaerat neque asperiores ea.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <div class="project">
-                <h3>Projet 2</h3>
-                <p>Description rapide du projet 2. Explique ici le rôle que j’ai joué, les outils utilisés, etc.</p>
-            </div>
+            <a href="#" class="btn">Hire me</a>
         </div>
     </section>
-
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email : <a href="mailto:simo@example.com">simo@example.com</a></p>
-        <p>LinkedIn : <a href="https://linkedin.com/in/votrenom"  target="_blank">linkedin.com/in/votrenom</a></p>
-    </section>
-
-    <!-- Pied de page -->
-    <footer>
-        <p>&copy; 2025 Simo CMDL</p>
-    </footer>
-
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.7/build/spline-viewer.js"></script>
+    <spline-viewer url="https://prod.spline.design/UtTtoCqjnfDIjBsm/scene.splinecode"></spline-viewer>
 </body>
 </html>
